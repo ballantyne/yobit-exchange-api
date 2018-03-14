@@ -89,7 +89,7 @@ describe('Yobit', function() {
     
     it('ticker', function(done) {
       var yobit = new Yobit(keys)
-      yobit.ticker('ltc_btc', function(err, result) {
+      yobit.ticker(['ltc_btc'], function(err, result) {
         assert.equal(result.method, 'GET');
         assert.equal(result.url, 'https://yobit.net/api/3/ticker/ltc_btc');
         done();
@@ -98,7 +98,7 @@ describe('Yobit', function() {
 
     it('depth', function(done) {
       var yobit = new Yobit(keys)
-      yobit.depth('ltc_btc', function(err, result) {
+      yobit.depth(['ltc_btc'], function(err, result) {
         assert.equal(result.method, 'GET');
         assert.equal(result.url, 'https://yobit.net/api/3/depth/ltc_btc');
         done();
