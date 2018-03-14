@@ -34,15 +34,15 @@ trade.getInfo(function(err, data) {
   console.log(data);
 })
 
-version2.ticker(['ETH-BTC'], function(err, data) {
+version2.ticker('ltc_btc', function(err, data) {
   console.log(data);
 })
 
-version2.depth(['ETH-BTC'], function(err, data) {
+version2.depth('ltc_btc', function(err, data) {
   console.log(data);
 })
 
-version2.trades(['ETH-BTC'], function(err, data) {
+version2.trades('ltc_btc', function(err, data) {
   console.log(data);
 })
 
