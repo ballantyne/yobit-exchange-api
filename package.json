@@ -1,0 +1,25 @@
+{
+  "name": "yobit-exchange-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Scott Ballantyne",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.6.0",
+    "is-json": "^2.0.1",
+    "klass": "^1.4.1",
+    "nonce": "^1.0.4",
+    "request": "^2.83.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.4",
+    "mockery": "^2.1.0",
+    "request-mockery": "^1.0.1"
+  }
+}
