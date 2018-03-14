@@ -8,6 +8,9 @@ const Trade        = require(path.join(__dirname, 'lib', 'trade'));
 var api, authenticated;
 
 module.exports = klass(function(options) {
+  if (options == undefined) {
+    options = {};
+  } 
   
   if (options.api_version == 2) {
     api = new VersionTwo(options.verbose);
