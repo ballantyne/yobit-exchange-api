@@ -18,7 +18,8 @@ Usage
 ```javascript
 
 var options = {
-  "api_key": ""
+  "key": "",
+  "secret": ""
 }
 
 var Yobit = require('yobit-exchange-api');
