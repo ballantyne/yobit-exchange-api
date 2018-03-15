@@ -17,11 +17,6 @@ Usage
 
 ```javascript
 
-var options = {
-  "key": "",
-  "secret": ""
-}
-
 var Yobit = require('yobit-exchange-api');
 var VersionTwo = require('yobit-exchange-api/lib/version_two');
 var Trade = require('yobit-exchange-api/lib/trade');
