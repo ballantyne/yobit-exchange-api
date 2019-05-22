@@ -1,10 +1,14 @@
 {
   "name": "yobit-exchange-api",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/ballantyne/yobit-exchange-api.git"
   },
   "author": "Scott Ballantyne",
   "license": "MIT",
